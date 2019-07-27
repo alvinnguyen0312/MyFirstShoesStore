@@ -1,0 +1,167 @@
+﻿[
+    {
+        "ID": "AO4971-001",
+        "PNAME": "Nike Air Max 270 React",
+        "GNAME": "Nike Air Max 270 React",
+        "PRICE": "165",
+        "MSRP": "195",
+        "QTYHAND": "100",
+        "QTYBORDER": "40",
+        "DESC": "Inspired by colours and textures from art movements of the last century, the Nike Air Max 270 React uses lightweight, layered materials to create a modern design that looks as good as it feels.",
+        "BRAND": "NIKE"
+    },
+    {
+        "ID": "BQ6623-700",
+        "PNAME": "Jordan Proto-Max 720",
+        "GNAME": "Jordan Proto-Max 720",
+        "PRICE": "215",
+        "MSRP": "265",
+        "QTYHAND": "80",
+        "QTYBORDER": "50",
+        "DESC": "Inspired by outer space flight, the Jordan Proto-Max 720 provides all-day comfort with a future-forward look. An outer shroud covers the sock-like bootie construction, while Nike Air cushions every step.",
+        "BRAND": "NIKE"
+    },
+    {
+        "ID": "343880-303",
+        "PNAME": "Nike Benassi",
+        "GNAME": "Nike Benassi",
+        "PRICE": "23",
+        "MSRP": "35",
+        "QTYHAND": "400",
+        "QTYBORDER": "270",
+        "DESC": "The Nike Benassi Slide features a lined upper with a bold logo for plush comfort and an athletic look. A foam midsole and outsole provide lightweight impact protection.",
+        "BRAND": "NIKE"
+    },
+    {
+        "ID": "838937-111",
+        "PNAME": "NikeCourt Borough Low",
+        "GNAME": "NikeCourt Borough Low",
+        "PRICE": "88",
+        "MSRP": "102",
+        "QTYHAND": "120",
+        "QTYBORDER": "70",
+        "DESC": "The NikeCourt Borough Low Men's Shoe offers a premium look and feel with leather and lightweight cushioning.",
+        "BRAND": "NIKE"
+    },
+    {
+        "ID": "AO7351-002",
+        "PNAME": "NikeCourt Air Max Wildcard",
+        "GNAME": "NikeCourt Air Max Wildcard",
+        "PRICE": "120",
+        "MSRP": "145",
+        "QTYHAND": "150",
+        "QTYBORDER": "90",
+        "DESC": "The NikeCourt Air Max Wildcard delivers the comfort you need to hit hard and move fast on the court. A Max Air unit under your heel cushions every step, while an innovative Lunarlon midsole provides a springy underfoot sensation and extra stability.",
+        "BRAND": "NIKE"
+    },
+    {
+        "ID": "M20324",
+        "PNAME": "Original Stan Smith Shoes",
+        "GNAME": "Original Stan Smith Shoes",
+        "PRICE": "110",
+        "MSRP": "125",
+        "QTYHAND": "100",
+        "QTYBORDER": "78",
+        "DESC": "Back in the day, Stan Smith won big on the tennis court. The shoe that bears his name has been winning on the streets ever since. Top to bottom, these shoes capture the essential style of the 1972 original, with the artful leather build, low-profile cupsole and clean trim that have always been its hallmark.",
+        "BRAND": "ADIDAS"
+    },
+    {
+        "ID": "DB2928",
+        "PNAME": "POD-S3.1 Original Men Shoes",
+        "GNAME": "POD-S3.1 Original Men Shoes",
+        "PRICE": "125",
+        "MSRP": "140",
+        "QTYHAND": "80",
+        "QTYBORDER": "22",
+        "DESC": "The '90s sensation is back, updated with more style and comfort. These shoes have transparent 3-Stripes on an embroidered knit upper and come with flashy reflective laces. The distinctive P.O.D. midsole shows off a semi-translucent TPU bridge, and Boost cushioning adds an elevated level of comfort.",
+        "BRAND": "ADIDAS"
+    },
+    {
+        "ID": "B42114",
+        "PNAME": "Adilette CloudFoam Plus Stripes Slides",
+        "GNAME": "Adilette CloudFoam Plus Stripes Slides",
+        "PRICE": "40",
+        "MSRP": "45",
+        "QTYHAND": "350",
+        "QTYBORDER": "270",
+        "DESC": "Rejuvenate tired feet in these slides for men. The lightweight slides have a Cloudfoam Plus contoured footbed that delivers plush cushioning with every step. The classic design features a bandage upper with contrast 3-Stripes.",
+        "BRAND": "ADIDAS"
+    },
+    {
+        "ID": "BB7952",
+        "PNAME": "Duramo 9 Shoes",
+        "GNAME": "Duramo 9 Shoes",
+        "PRICE": "90",
+        "MSRP": "115",
+        "QTYHAND": "220",
+        "QTYBORDER": "150",
+        "DESC": "The roomy fit of these extra-wide running shoes keeps your stride comfortable as you log miles. The breathable mesh upper has print overlays for targeted support. Plush midsole cushioning offers step-in ease.",
+        "BRAND": "ADIDAS"
+    },
+    {
+        "ID": "BB5476",
+        "PNAME": "Gazelle Shoes",
+        "GNAME": "Gazelle Shoes",
+        "PRICE": "120",
+        "MSRP": "135",
+        "QTYHAND": "450",
+        "QTYBORDER": "90",
+        "DESC": "Ultimate simplicity for three decades and counting. This men's version of the Gazelle honors the favorite version of 1991, with the same materials, colors, textures and proportions as the original. The leather upper features contrast 3-Stripes and heel tab that echo the early-'90s style.",
+        "BRAND": "ADIDAS"
+    },
+    {
+        "ID": "PM372388",
+        "PNAME": "CELL Venom Blackout Sneakers",
+        "GNAME": "CELL Venom Blackout Sneakers",
+        "PRICE": "135",
+        "MSRP": "120",
+        "QTYHAND": "100",
+        "QTYBORDER": "55",
+        "DESC": "When PUMA CELL technology first arrived in 1998, it was revolutionary. Its hexagonal cells provided the optimal shape for stable cushioning, so you could move faster, stronger, smoother, bolder, better. Now we're bringing CELL back, far from its early days linked to performance and more focused on the streetwear world. This all-black version is designed specially for the night owls.",
+        "BRAND": "PUMA"
+    },
+    {
+        "ID": "PM372451",
+        "PNAME": "Cali Zero Demi Sneakers",
+        "GNAME": "Cali Zero Demi Sneakers",
+        "PRICE": "120",
+        "MSRP": "145",
+        "QTYHAND": "100",
+        "QTYBORDER": "62",
+        "DESC": "Back to basics. Far from basic. Cali Zero updates the original Cali with a smooth material mix, classic earth tones and rugged silhouette for the functional, everyday explorer. A re-imagined upper takes the Cali from the streets to the trail with a neutral color palette and new mid-top silhouette.",
+        "BRAND": "PUMA"
+    },
+    {
+        "ID": "PM456222",
+        "PNAME": "RS-X Fourth Dimension Men’s Sneakers",
+        "GNAME": "RS-X Fourth Dimension Men’s Sneakers",
+        "PRICE": "110",
+        "MSRP": "125",
+        "QTYHAND": "350",
+        "QTYBORDER": "100",
+        "DESC": "X marks extreme. Exaggerated. Remixed. From the ‘80s PUMA Archives, the original Running System (RS) was an innovative cushioning technology revolutionary for its time. We’ve updated the RS for this generation to create the RS-X. With its bulky design, bold color palette, and retro style, the RS-X celebrates extreme reinvention.RS-X Fourth Dimension pushes boundaries and conventions with contrasting prints and a loud colorblock design.",
+        "BRAND": "PUMA"
+    },
+    {
+        "ID": "PM223909",
+        "PNAME": "NRGY Star Multi Running Shoes",
+        "GNAME": "NRGY Star Multi Running Shoes",
+        "PRICE": "75",
+        "MSRP": "80",
+        "QTYHAND": "100",
+        "QTYBORDER": "20",
+        "DESC": "Step out of this world in NRGY Star with a blend of powerful performance and airy comfort. The NRGY Foam midsole offers superior cushioning, while the SoftFoam+ sockliner gives you a plush, seamless ride that will take you to galactic heights.",
+        "BRAND": "PUMA"
+    },
+    {
+        "ID": "PM092345",
+        "PNAME": "PUMA ONE 5.1 City FG/AG Men's Soccer Cleats",
+        "GNAME": "PUMA ONE 5.1 City FG/AG Men's Soccer Cleats",
+        "PRICE": "250",
+        "MSRP": "280",
+        "QTYHAND": "100",
+        "QTYBORDER": "90",
+        "DESC": "The all-new PUMA ONE 5.1 is for those who forge their own path. Lightweight stability combines with cutting-edge design and expert control on the field. The newly engineered upper features smooth K Leather at crucial impact zones with a flexible evoKNIT sock collar and FUSEFIT customizable lacing system. Only for the bold and unapologetic.",
+        "BRAND": "PUMA"
+    }
+]

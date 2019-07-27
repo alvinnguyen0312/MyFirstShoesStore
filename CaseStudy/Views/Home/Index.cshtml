@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="m-4 text-center">
+    @if (ViewBag.Message != null)
+    {
+        ViewBag.Message = ViewBag.Message.Replace("\"", "");
+    }
+    @ViewBag.Message
+</div>

@@ -1,0 +1,73 @@
+﻿body{
+    font-family: Tahoma, Calibri, 'Trebuchet MS', sans-serif;
+}
+.carousel-inner > .carousel-item > img {
+    margin: auto;   
+    height: 400px;
+    margin-bottom:10px;
+}
+
+.list-group {
+    margin: auto;
+}
+
+#prdHeadline{
+    text-align: center;
+}
+
+.carousel-control {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.btn-outline-dark, .btn-success, #registerBtn, .btn-primary {
+    background-color: #e3f2fd;
+    border-color: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: black;
+}
+
+#item {
+    margin-bottom: 4px;
+    margin-top: 1px;
+    border: 1px solid #e3f2fd;
+}
+.img-thumbnail{
+    border:0;
+}
+
+#Id {
+    background-color: #e3f2fd;
+}
+
+.modalrow {
+    display: flex;
+}
+
+.columnL {
+    flex: 50%;
+    text-align: right;
+    padding-right: 2%;
+    margin-bottom:2%;
+}
+
+.columnR {
+    flex: 50%;
+    text-align: left;
+    padding-left: 2%;
+    margin-bottom: 2%;
+}
+#registerTab {
+    background-color: #e3f2fd; 
+    margin-left:1px;
+}
+
+#registerTab > a{
+    color:black;
+}

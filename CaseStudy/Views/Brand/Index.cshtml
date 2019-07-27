@@ -1,0 +1,100 @@
+﻿@model BrandViewModel
+    @{
+        ViewData["Title"] = "Index";
+    }
+
+@*<div class="flex-container">
+            <div class="w-100">
+                <h4 style="text-align:center">Brands</h4>
+                <br />
+                <form asp-controller="Brand" asp-action="Index" method="post">
+                    <select asp-for="Id" asp-items="@Model.GetBrands()"
+                            class="form-group form-control" onchange="this.form.submit();">
+                        <option selected style="display:none;">Select Brand</option>
+                    </select>
+                </form>
+            @if (Model.Products != null && Model.Products.Count() > 0)
+            {
+                <h5 class="mt-2">Products</h5>
+                <div class="row w-100 m-1" style="overflow-y:scroll;height:40vh;">
+                    @foreach (Product item in Model.Products)
+                    {
+                    <div id="item" class="col-sm-3 col-xs-12 text-center">
+                        <img class="img-thumbnail" src="~/images/ShoesCollection/@item.GraphicName" /><br />
+                        @if (item.Description.Length > 25)
+                        {
+                            <span class="m-0" style="font-size:large;font-weight:bold;">@item.ProductName</span><br />
+                            <span class="m-0" style="font-size:large;font-weight:normal;">$@item.MSRP</span> <br />
+                        }
+                        else
+                        {
+                            <span style="font-size:large;font-weight:bold;">@item.Description</span>
+                        }
+                            <a id="btnDetail" class="btn btn-outline-dark pt-2 pb-2">Details</a>
+                    </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>*@
+<div class="flex-container">
+        <div class="w-100">
+            <h4 class="text-center mb-2">Brands</h4>
+            <br />
+            <form asp-controller="Brand" asp-action="SelectBrand" method="post">
+                <select style="position:relative;padding:5px;" asp-for="BrandId" asp-items="@Model.GetBrands()"
+                        class="form-group form-control" onchange="this.form.submit();">
+                    <option selected style="display:none;">Select Brand</option>
+                </select>
+            </form>
+            <products brand="@Model.BrandId"></products>
+        </div>
+    </div>
+    <div class="modal" id="details_popup">
+        <div class="modal-dialog">
+            <div class="modal-content col-12">
+                <div class="modal-body">
+                    <button type="button" class="close" style="font-size:x-large;" data-dismiss="modal">X</button>
+                    <div class="text-center">
+                        <h4 id="prdName" style="font-weight:bold;"></h4>
+                    </div>
+                    <form asp-controller="Brand" asp-action="SelectProduct" method="post" role="form">
+                        <div class="text-center col-sm-offset-2">
+                            <div class="modalrow mt-4">
+                                <div class="columnL" id="graphicPic"></div>
+                                <div class="columnR" id="description"></div><br/>
+                            </div>
+                            <div class="modalrow">
+                                <div class="columnL">Price</div>
+                                <div class="columnR" id="price"></div>
+
+                            </div>
+                            <div class="modalrow mb-4">
+                                <div class="columnL">Qty</div>
+                                <div class="columnR" id="quantity">
+                                    <input asp-for="Qty" type="number" maxlength="3" size="3"
+                                           style="width: 50px;" id="qty" />
+                                    <input asp-for="selectedId" type="hidden" id="selectedId" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-outline-dark">
+                                Add To Order
+                            </button>
+                            <a href="/Order" class="btn btn-outline-dark">
+                                View Order
+                            </a>
+                            <button type="submit" class="btn btn-outline-danger">
+                                Remove Item
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="m-2">
+                    <div class="text-center font-weight-bold" id="results"> @ViewBag.AddMessage</div>
+                </div>
+            </div><!--modal-content-->
+        </div><!--modal-dialog-->
+    </div><!--modal-->
+
