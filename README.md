@@ -1,2 +1,8 @@
 # MyFirstShoesStore
-The project demonstrates an online shoes store where user can shop online by creating order from different types of shoes
+
+## What it does
+Simulate e-commerce shopping site, allowing user to
+browse through product list, place and manage orders,
+authenticating users login/sign-up
+## What I used to build it
+ASP.NET MVC, Javascript, HTML/CSS, Bootstrap, SQL Server
